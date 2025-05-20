@@ -15,7 +15,7 @@
     }
     header {
       background: url('https://images.unsplash.com/photo-1590080877777-8f5a7d2f6ec0?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
-      height: 250px;
+      height: 300px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -27,14 +27,17 @@
     }
     header h1 {
       color: #cc0000;
-      font-size: 3rem;
+      font-size: 5rem;
       font-weight: 900;
       margin-bottom: 0.3em;
       text-transform: uppercase;
     }
     header p {
-      font-size: 1.2rem;
-      max-width: 600px;
+      color: #cc0000;
+      font-size: 2rem;
+      font-weight: 700;
+      max-width: 700px;
+      margin: 0;
     }
     nav {
       background: #005f73;
@@ -146,7 +149,10 @@
     /* Responsivo */
     @media (max-width: 768px) {
       header h1 {
-        font-size: 2rem;
+        font-size: 3rem;
+      }
+      header p {
+        font-size: 1.5rem;
       }
       nav {
         flex-direction: column;
@@ -166,6 +172,16 @@
     <h1>Reparações ao Domicílio</h1>
     <p>Serviços rápidos e profissionais diretamente na sua casa</p>
   </header>
+  
+  <!-- Imagem grande logo após o header -->
+  <section style="max-width: 900px; margin: 40px auto; padding: 0 15px; text-align: center;">
+    <img 
+      src="https://images.unsplash.com/photo-1590080877777-8f5a7d2f6ec0?auto=format&fit=crop&w=1470&q=80" 
+      alt="Homem com ferramentas para reparações" 
+      style="width: 100%; max-width: 800px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);"
+    />
+  </section>
+
   <nav>
     <a href="#servicos">Serviços</a>
     <a href="#sobre">Sobre</a>
