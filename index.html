@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -18,7 +17,7 @@
       padding: 2rem 1rem;
     }
     h1 {
-      font-size: 2.8rem;
+      font-size: 3rem;
       color: red;
       margin-bottom: 0.5rem;
     }
@@ -28,12 +27,22 @@
     }
     main {
       padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .columns {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     ul {
-      line-height: 1.8;
-      margin-left: 1.5rem;
+      flex: 1;
+      list-style: disc;
       padding-left: 1.5rem;
+      line-height: 1.8;
       color: #333;
+      min-width: 300px;
     }
     section {
       margin-bottom: 2rem;
@@ -55,27 +64,30 @@
   <main>
     <section>
       <h3>Serviços disponíveis:</h3>
-      <ul>
-        <li>Ajuste de portas e gavetas</li>
-        <li>Revisão de estores e persianas</li>
-        <li>Reparo de autoclismo</li>
-        <li>Troca de lâmpadas e candeeiros</li>
-        <li>Troca ou instalação de tomadas e disjuntores</li>
-        <li>Aplicação de silicone em cozinhas, casa de banho, janelas</li>
-        <li>Instalação de suportes, cortinas e quadros</li>
-        <li>Montagem de móveis</li>
-        <li>Consertos elétricos e hidráulicos</li>
-        <li>Instalação de prateleiras, chuveiros, torneiras, fechaduras e muito mais</li>
-        <li>Pinturas</li>
-        <li>Montagem de esquentadores, termoacumuladores, eletrodomésticos</li>
-        <li>Bricolagem e serviços técnicos</li>
-        <li>Lavagem do seu carro</li>
-        <li>Limpeza de vidros e janelas</li>
-        <li>Trabalhamos de 2ª feira a domingo, em quaisquer horários</li>
-        <li>Atendemos urgências</li>
-        <li>Profissional experiente, serviço com total cuidado</li>
-        <li>Respeito ao seu espaço — deixamos tudo limpo!</li>
-      </ul>
+      <div class="columns">
+        <ul>
+          <li>Ajuste de portas e gavetas</li>
+          <li>Revisão de estores e persianas</li>
+          <li>Reparo de autoclismo</li>
+          <li>Troca de lâmpadas e candeeiros</li>
+          <li>Troca ou instalação de tomadas e disjuntores</li>
+          <li>Aplicação de silicone em cozinhas, casa de banho, janelas</li>
+          <li>Instalação de suportes, cortinas e quadros</li>
+          <li>Montagem de móveis</li>
+          <li>Consertos elétricos e hidráulicos</li>
+        </ul>
+        <ul>
+          <li>Instalação de prateleiras, chuveiros, torneiras, fechaduras e muito mais</li>
+          <li>Pinturas</li>
+          <li>Montagem de esquentadores, termoacumuladores, eletrodomésticos</li>
+          <li>Bricolagem e serviços técnicos</li>
+          <li>Lavagem do seu carro</li>
+          <li>Limpeza de vidros e janelas</li>
+          <li>Trabalhamos de 2ª feira a domingo, em quaisquer horários</li>
+          <li>Atendemos urgências</li>
+          <li>Profissional experiente, serviço com total cuidado e limpeza</li>
+        </ul>
+      </div>
     </section>
 
     <section>
