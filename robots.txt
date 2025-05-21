@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ricardoalex76.github.io/Repara-es-ao-domic-lio-/sitemap.xml
